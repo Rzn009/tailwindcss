@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="../build.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Portofolio Razan Muhammad Aysel</title>
+
+
+</head>
+
+<style type="text/tailwindcss">
+    @layer utilities {
+            .nav-link::after {
+                @apply absolute content-[''] bg-pink-500 h-[3px] w-[100%] left-0
+            }
+        }
+    </style>
+
+<body class="bg-[#14141C] gap-0">
+
+
+    <nav class=" p-5 shadow md:flex md:items-center md:justify-between ">
+        <div class="flex items-center justify-between ">
+            <h1 class="text-white text-2xl  font-mono"> MY
+                <span class="text-2xl text-red-500  cursor-pointer">
+                    PORTOFOLIO
+                </span>
+            </h1>
+            <span>
+                <ion-icon name="menu-outline" onclick="Menu(this)"
+                    class="text-white text-2xl cursor-pointer md:hidden block"></ion-icon>
+            </span>
+        </div>
+
+        <ul
+            class="text-white md:flex md:items-center md:space-x-6 lg:space-x-6  lg:my-0 z-[-1] md:z-auto md:static absolute md:bg-transparent bg-white/35 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-4 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="my-6 md:my-0 lg:my-0">
+                <a href="#"
+                    class="text-lg font-mono font-bold relative after:absolute after:content-[''] after:bg-red-500 after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[5px] after:duration-200 after:transition-all rounded-xl hover:after:w-[100%]">Home</a>
+            </li>
+            <li class="my-6 md:my-0 lg:my-0">
+                <a href="#"
+                    class="text-lg font-mono font-bold relative after:absolute after:content-[''] after:bg-red-500 after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[5px] after:duration-200 after:transition-all rounded-xl hover:after:w-[100%]">About</a>
+            </li>
+
+            <li class="my-6 md:my-0 lg:my-0">
+                <a href="#"
+                    class="text-lg font-mono font-bold relative after:absolute after:content-[''] after:bg-red-500 after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[5px] after:duration-200 after:transition-all rounded-xl hover:after:w-[100%]">Skills</a>
+            </li>
+            <li class="my-6 md:my-0 lg:my-0">
+                <a href="#"
+                    class="text-lg font-mono font-bold relative after:absolute after:content-[''] after:bg-red-500 after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[5px] after:duration-200 after:transition-all rounded-xl hover:after:w-[100%]">Sertivicate
+                    & Project</a>
+            </li>
+            <li class="my-6 md:my-0 lg:my-0">
+                <a href="#"
+                    class="text-lg font-mono font-bold relative after:absolute after:content-[''] after:bg-red-500 after:h-[3px] after:w-[0%] after:left-0 after:-bottom-[5px] after:duration-200 after:transition-all rounded-xl hover:after:w-[100%]">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <div class="flex flex-col-reverse md:flex-row items-center justify-center min-h-screen">
+        <!-- Bagian Teks -->
+        <div class="px-20 text-center md:text-left flex-1">
+            <h1 class="text-2xl md:text-4xl lg:text-7xl text-white font-sans">
+                Razan <span class="text-red-500">Aysel</span>
+            </h1>
+            <h2>
+                <span
+                    class="bg-gradient-to-r  from-pink-500 via-orange-400 to-yellow-400 bg-clip-text tracking-tighter text-xl md:text-2xl text-transparent">
+                    Fullstack Developer
+                </span>
+            </h2>
+            <p class="text-white font-light tracking-tighter text-left md:text-justify mt-5">
+                I am a passionate full stack developer with a knack for crafting robust and scalable web applications.
+                With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and
+                Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to
+                leverage my expertise to create innovative solutions that drive business growth and deliver exceptional
+                user experiences.
+            </p>
+            <div class="flex space-x-6 mt-4">
+                <button
+                    class="text-white bg-red-500 border-2 border-red-400 rounded-lg p-1 md:p-3 mt-2 hover:bg-black hover:duration-300 sm:text-xs ">Download
+                    CV</button>
+                <a href="https://www.instagram.com/razanmaysel/"
+                    class="text-red-500 hover:text-red-300  animate-pulse  hover:ease-in-out hover:-translate-y-3 hover:duration-700  mt-4 text-xl"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href=""
+                    class="text-red-500 hover:text-red-300  animate-pulse hover:ease-in-out hover:-translate-y-3 hover:duration-700  mt-4 text-xl"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href=""
+                    class="text-red-500 hover:text-red-300  animate-pulse hover:ease-in-out hover:-translate-y-3 hover:duration-700  mt-4 text-xl"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href=""
+                    class="text-red-500 hover:text-red-300  animate-pulse hover:ease-in-out hover:-translate-y-3 hover:duration-700  mt-4 text-xl"><i
+                        class="fa-brands fa-square-x-twitter"></i></a>
+            </div>
+        </div>
+        <!-- Bagian Gambar -->
+        <div class="flex-1 flex justify-center md:justify-end mt-10 md:mt-0 p-10 md:p-0">
+            <img src="./img/WhatsApp Image 2024-08-12 at 13.12.41.jpeg" width="450" class="rounded-lg md:rounded-l-full"
+                height="100" alt="No internet">
+        </div>
+    </div>
+
+
+    <h1 class="text-white text-center text-4xl font-mono mt-6 md:mt-0">About <span
+            class="font-thin text-neutral-500">Me</span></h1>
+
+
+    <div class="flex flex-col md:flex-row justify-center items-center">
+        <div class="p-5 md:p-10 lg:p-20">
+            <img src="img/WhatsApp Image 2024-08-23 at 09.52.54.jpeg" alt="No img"
+                class="w-80 h-80 md:w-96 md:h-96 rounded-lg shadow-2xl shadow-red-500">
+        </div>
+        <div class="flex-1 mt-4 md:mt-10 p-5 md:p-10 lg:p-20 text-white text-sm md:text-base lg:text-lg">
+            <p class="text-justify">
+                Halo teman teman saya Razan Muhammad Aysel, Saya berumur 16 tahun. Saya tinggal di Jakarta Selatan Dan
+                sekarang Saya bersekolah di SMK Telkom Jakarta. Makanan Favorit saya adalah Ayam kentaki untuk minuma
+                favorit saya adalah Jus manga. Hobi saya adalah Bermain futsal, dan biasanya ketika waktu kosong saya
+                Sunmory bersama dengan teman saya. Status saya belum nikah dan tidak mempunyai pacar. Dan waktu saya SMP
+                saya belajar di MILBOS dan sekarang saya belajar di telkom.
+            </p>
+        </div>
+    </div>
+
+
+    <h1 class="text-white font-mono text-2xl md:text-4xl text-center">Skills</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 gap-4 md:gap-6">
+        <div
+            class="p-6 md:p-10 lg:p-14 rounded-lg text-center bg-neutral-700 hover:bg-red-500 hover:-translate-y-4 hover:duration-300 border-2 border-neutral-600 transition-transform">
+            <i class="fa-solid fa-code text-white text-3xl"></i>
+            <h1 class="text-white font-thin text-xl md:text-2xl mt-3">Web Developer</h1>
+            <p class="text-white mt-3 text-sm md:text-base">Continuous Integration/Continuous Deployment (CI/CD):
+                Practices for automating the integration of code changes and deployment of applications.</p>
+        </div>
+        <div
+            class="p-6 md:p-10 lg:p-14 rounded-lg text-center bg-neutral-700 hover:bg-red-500 hover:-translate-y-4 hover:duration-300 border-2 border-neutral-600 transition-transform">
+            <i class="fa-solid fa-database text-white text-3xl"></i>
+            <h1 class="text-white font-thin text-xl md:text-2xl mt-3">Database</h1>
+            <p class="text-white mt-3 text-sm md:text-base">A database is not just a data repository, but a tool for
+                efficiently and effectively managing information.</p>
+        </div>
+        <div
+            class="p-6 md:p-10 lg:p-14 rounded-lg text-center bg-neutral-700 hover:bg-red-500 hover:-translate-y-4 hover:duration-300 border-2 border-neutral-600 transition-transform">
+            <i class="fa-solid fa-pen-nib text-white text-3xl"></i>
+            <h1 class="text-white font-thin text-xl md:text-2xl mt-3">Designer</h1>
+            <p class="text-white mt-3 text-sm md:text-base">Creativity and functionality are the hallmarks of a
+                successful designer, blending artistic vision with practical solutions.</p>
+        </div>
+    </div>
+
+
+    <div class="skill">
+        <li class="list-none animate-pulse">
+            <h3 class="text-2xl font-mono mb-2">laravel</h3>
+            <span class="bar rounded-lg border-2 border-black"><span class="laravel"> </span></span>
+        </li>
+        <li class="list-none animate-pulse">
+            <h3 class="text-2xl font-mono mb-2">PHP</h3>
+            <span class="bar rounded-lg border-2 border-black"><span class="php"> </span></span>
+        </li>
+        <li class="list-none animate-pulse">
+            <h3 class="text-2xl font-mono mb-2">TailwindCSS</h3>
+            <span class="bar rounded-lg border-2 border-black"><span class="tailwindcss"> </span></span>
+        </li>
+        <li class="list-none animate-pulse">
+            <h3 class="text-2xl font-mono mb-2">React JS</h3>
+            <span class="bar rounded-lg border-2 border-black"><span class="react"> </span></span>
+        </li>
+    </div>
+
+
+    <h1 class="text-center text-2xl md:text-4xl text-white font-mono mt-10">Sertivicate And Project</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 p-10 md:p-20">
+        <div class="">
+            <img src="./img/Screenshot 2024-08-29 133655.png" width="500" height="250" alt="">
+        </div>
+        <div class="">
+            <img src="./img/Screenshot 2024-08-29 133641.png" width="500" height="250" alt="">
+        </div>
+        <div class="md:col-span-2 flex justify-center items-center">
+            <img src="./img/Screenshot 2024-08-29 132824.png" width="500" height="250" alt="">
+        </div>
+    </div>
+
+
+    <h1 class="text-center text-2xl md:text-4xl font-mono text-white">My Contact</h1>
+
+    <div class="flex w-full min-h-screen justify-center items-center">
+        <div class="flex flex-col md:flex-row md:space-x-36 md:space-y-0 space-y-6 bg-red-500 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
+
+            <div class="flex flex-col space-y-8 justify-between">
+                <div class="">
+                    <h1 class="text-4xl font-bold tracking-wide">Contact Me</h1>
+                    <p class="pt-2 text-red-200 text-sm">Hello My name is Razan Muhammad Aysel</p>
+                </div>
+                <div class="flex flex-col space-y-6">
+                    <div class="inline-flex space-x-2 items-center">
+                        <i class="fa-solid fa-phone text-red-900 text-xl"></i>
+                        <span>+(62) 1385 6569 11</span>
+                    </div>
+                    <div class="inline-flex space-x-2 items-center">
+                        <i class="fa-solid fa-location-dot text-red-900 text-xl"></i>
+                        <span>Jl. Kemandoran II No. 28</span>
+                    </div>
+                    <div class="inline-flex space-x-2 items-center">
+                        <i class="fa-solid fa-envelope text-red-900 text-xl"></i>
+                        <span>razanmaysel08@gmail.com</span>
+                    </div>
+                </div>
+                <div class="flex space-x-4 text-lg">
+                    <a href="https://www.instagram.com/razanmaysel/"
+                        class=""><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href=""
+                        class=""><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="bg-white rounded-xl shadow-lg p-8 text-gray-600">
+                    <form action="" class="flex flex-col space-y-4">
+                        <div>
+                            <label for="" class="text-sm">Your Name</label>
+                            <input type="text" placeholder="Your Name" class="ring-1 ring-gray-300 w-full rounded-md px-4 py- outline-none focus:ring-2 focus:ring-red-300 mt-2">
+                        </div>
+                        <div>
+                            <label for="" class="text-sm">Email Address</label>
+                            <input type="email" placeholder="Email Addres" class="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py- outline-none focus:ring-2 focus:ring-red-300">
+                        </div>
+                        <div>
+                            <label for="" class="text-sm">Message</label>
+                            <textarea placeholder="Message" class="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py- outline-none focus:ring-2 focus:ring-red-300" rows="4"></textarea>
+                        </div>
+                        <button class="inline-block self-end bg-red-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send Message</button>
+                    </form>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+
+    <script src="index.js">
+
+    </script>
+
+</body>
+
+</html>
